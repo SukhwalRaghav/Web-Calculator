@@ -11,6 +11,10 @@
     width: auto;
     height: auto;
   }
+  .author{
+    text-align: center;
+    
+  }
   .row{
     margin: 1px;
     padding: 8px;
