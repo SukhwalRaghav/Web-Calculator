@@ -1,20 +1,32 @@
 
 .text-centre {
+    color: rgba(240, 225, 225, 0.925);
     text-align: center;
+    font-weight: bolder;
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   }
   .container{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color: #5e5555;
+    background-color:rgba(199, 199, 111, 0.845);
     width: auto;
     height: auto;
   }
-  .author{
-    text-align: center;
-    
-  }
+  #author {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(90deg,rgb(177, 72, 72) 25%,rgba(255, 255, 0, 0.701) 50%, rgba(34, 147, 34, 0.82) 100%);
+    padding: 5px;
+    text-align: right;
+    display: inline;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: flex-end;
+    box-sizing: border-box; 
+}
   .row{
     margin: 1px;
     padding: 8px;
@@ -28,6 +40,8 @@
     border-radius: 9px;
     cursor: pointer;
     border-radius: 15px;
+    font-weight: bolder;
+
   }
 
   :hover.button{
@@ -55,3 +69,39 @@
 .item-centre{
     align-items: center;
 }
+
+#AC{
+  color: red;
+  background-color: rgb(52, 43, 43);
+}
+
+#Color{
+  background-color: rgb(44, 44, 33);
+  color: rgb(210, 173, 71);
+}
+
+#equal{
+  background-color: rgb(141, 141, 17);
+  color: white;
+}
+
+#num{
+  background-color: rgba(61, 13, 13, 0.537);
+  color: rgb(0, 0, 0);
+}
+
+#Zero{
+  background-color: rgba(255, 235, 205, 0.886);
+  color: rgba(0, 0, 0, 0.71);
+}
+
+#screenborder{
+  background-color: rgba(0, 0, 0, 0.381);
+}
+
+#screen{
+  background-color: rgba(107, 107, 163, 0.297);
+  color:wheat;
+  font-weight: bolder;
+}
+
